@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="CyanogenMod/android_frameworks_base"/>
+  <remove-project name="CyanogenMod/android_frameworks_compile_slang"/>
   <remove-project name="CyanogenMod/android_build"/>
-  <project path="build" name="DefDroid/android_build" revision="defdroid-cm11.0"/>
-  <project path="frameworks/base" name="DefDroid/android_frameworks_base-cm" revision="defdroid-cm11.0"/>
+  <project path="build" name="DefDroid/android_build" remote="github" revision="defdroid-cm11.0"/>
+  <project path="frameworks/base" name="DefDroid/android_frameworks_base-cm" remote="github" revision="defdroid-cm11.0"/>
+  <project path="frameworks/compile/slang" name="DefDroid/android_frameworks_compile_slang" remote="github" revision="defdroid-cm11.0"/>
 </manifest>
